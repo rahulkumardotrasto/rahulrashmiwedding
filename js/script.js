@@ -1,5 +1,5 @@
 /**
- * @author Sarthak Jain <sarthak240498@gmail.com>
+ * @author Rahul Kumar <rahulkumar.rasto@gmail.com>
  */
 (function ($) {
     "use strict";
@@ -22,6 +22,12 @@ $(document).on('click', function(){
     document.getElementById("my_audio").play();
     console.log('Shaadi me zaroor aana');
 });
+
+
+// setTimeout(function() {
+//     document.getElementById("my_audio").play();
+//     console.log('Shaadi me zaroor aana');
+// }, 5000);
 
 function pauseAudio() { 
     document.getElementById("my_audio").pause();
@@ -54,9 +60,6 @@ var x = setInterval(function() {
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("time").innerHTML = "Wedding Completed !!";
-        // document.getElementById("time").innerHTML = " See The best Captured Moments ";
-        // document.getElementById("time").href = "https://photos.app.goo.gl/Wn9PRK7FMpxBKF5s6/";
-        // document.getElementById("time").target = "_blank";
     }
 }, 1000);
 
@@ -92,9 +95,9 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 14th Feb, 2021', styles);
+console.log('\n\n%c SAVE THE DATE: 4th Dec, 2023', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Sarthak Jain', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: Rahul Kumar', styles1, styles2);
 
 console.log(
     `%c शादी में जलूल जलूल आना होगा \n\n`,
